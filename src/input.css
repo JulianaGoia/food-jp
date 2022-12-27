@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat' !important;
+    font-weight: bold !important;
+}
+
+p, span, button {
+    font-family: 'Inter' !important;
+}
+
+.text-info p {
+    width: 520px;
+}
+
+.text-food {
+    width: 500px;
+}
+
+.ramen-type {
+    background: #F3F3F3;
+    border-radius: 32px;
+    width: 410px;
+    height: 450px;
+    position: relative;
+    padding: 0 3rem 2rem 3rem;
+}
+
+.ramen-type img {
+    position: absolute;
+    top: -145px;
+}
+
+.ramen-type p {
+    font-family: 'Montserrat' !important;
+}
+
+.ramen-type img[alt="ramen tradicional"] {
+    top: -165px;
+}
+
+.review-card {
+    background: #F3F3F3;
+    border-radius: 16px;
+    padding: 2.5rem 5rem 2.5rem 2.5rem;
+    width: 604px;
+    height: max-content;
+}
+
+.localization-sec button {
+    height: 4.375rem;
+    padding: 1.25rem 3.25rem;
+    color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.localization-input svg {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+.localization-input input {
+    width: 39.375rem;
+    height: 4.375rem;
+    padding: 1rem 1rem 1rem 4rem;
+    border-radius: 10px 0px 0px 10px;
+}
